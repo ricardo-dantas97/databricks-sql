@@ -27,6 +27,7 @@ FROM silver_olist.pedido
 
 -- COMMAND ----------
 
+-- Filtrando pedidos com a situação 'delivered'
 SELECT *
 FROM silver_olist.pedido
 WHERE LOWER(descSituacao) = 'delivered'
@@ -62,7 +63,3 @@ SELECT *
 FROM silver_olist.pedido
 WHERE descSituacao IN ('shipped', 'cancelled')
 AND YEAR(dtPedido) = 2018;
-
--- COMMAND ----------
-
-
