@@ -1,2 +1,2 @@
 # databricks-sql
-Repositório usado no curso de SQL usando o Databricks
+Repositório usado no curso de SQL da LinuxTips usando o Databricks
